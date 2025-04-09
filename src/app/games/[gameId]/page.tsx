@@ -1,5 +1,5 @@
 const GameId = async ({ params }: { params: { gameId: string } }) => {
-  const { gameId } = params;
+  const { gameId } = await params;
   return <div>GameId: {gameId}</div>;
 };
 
